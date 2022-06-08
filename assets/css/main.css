@@ -103,11 +103,11 @@ b{
 	}
 
 	body {
-		background-color: #935d8c;
-		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+		background-color: #483145;
+		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #846d6f 15%, #463d5f 85%);
+		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #6d575a 15%, #3e3752 85%);
+		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #4a3a3c 15%, #352e48 85%);
+		background-image: url("images/overlay.png"), linear-gradient(45deg, #392a2b 15%, #1f1b2a 85%);
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -699,17 +699,18 @@ h6 {
 /*   button    */
 
 
+
 .sp{
 	color: #fff;
 	cursor: default;
 	font-family: monospace;
 	font-weight:bold;
 	font-size: 20px;
-	text-shadow: 0 0 3px #fff, 0 0 5px #fff, 0 0 8px red, 0 0 10px red, 0 0 15px red;
+	text-shadow: 0 0 3px #fff, 0 0 5px #fff, 0 0 8px rgb(26, 22, 22), 0 0 10px rgb(10, 9, 9), 0 0 15px rgb(33, 28, 28);
 	transition: all 1s;
   }
   body:hover span{
-	text-shadow: 0 0 3px #fff, 0 0 5px #fff, 0 0 8px red, 0 0 10px red, 0 0 15px red, 0 0 20px red, 0 0 25px red, 0 0 30px red;
+	text-shadow: 0 0 3px #fff, 0 0 5px #fff, 0 0 8px rgb(49, 45, 45), 0 0 10px rgb(83, 75, 75), 0 0 15px rgb(59, 54, 54), 0 0 20px rgb(37, 24, 24), 0 0 25px rgb(55, 47, 47), 0 0 30px rgb(36, 25, 25);
   }
 
 .glow-on-hover {
@@ -718,7 +719,7 @@ h6 {
     border: none;
     outline: none;
     color: #fff;
-    background: palevioletred;
+    background: rgb(243, 241, 241);
     cursor: pointer;
     position: relative;
     z-index: 0;
@@ -727,7 +728,7 @@ h6 {
 
 .glow-on-hover:before {
     content: '';
-    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    background: linear-gradient(45deg, #131212, #46423f, #333327, #41473f, #323837, #24262f, #2f2a34, #342631, #423636);
     position: absolute;
     top: -2px;
     left:-2px;
@@ -743,7 +744,7 @@ h6 {
 }
 
 .glow-on-hover:active {
-    color: palevioletred;
+    color: rgb(243, 237, 239);
 }
 
 .glow-on-hover:active:after {
@@ -760,11 +761,12 @@ h6 {
     position: absolute;
     width: 100%;
     height: 100%;
-    background: palevioletred;
+    background: rgb(239, 184, 202);
     left: 0;
     top: 0;
     border-radius: 10px;
 }
+
 
 
 
